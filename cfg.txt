@@ -1,0 +1,19 @@
+[Sim Constants]
+NumUsers = 250
+PowerlawExponent = 3
+UniformExpertiseStdev = .2
+DifficultyExponent = 2
+
+# P_A(u)=(-L(u)+1)/QuestionAskConstant
+QuestionAskConstant = 10    
+
+# ProbSeen = K/numquestions^DenomExp
+QuestionSeenConstant = 2    
+QuestionSeenDenomExp = .5
+MaxAnswers = 5
+DecayPercentage = 5
+Testwithrecommender = False
+RecipWeight = .1
+# Strategy must be 'Reciprocal' or 'Yahoo'
+Strategy = Yahoo
+NumCycles = 50
